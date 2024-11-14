@@ -27,8 +27,15 @@ const hundreds = 1000000;
 console.log(Math.random());
 console.log(Math.random() * 10 + 1);
 console.log(Math.floor(Math.random() * 10) + 1);
+console.log(Math.round(Math.random() * 10));
 
 const min = 10;
 const max = 20;
 
 console.log(Math.floor(Math.random() * (max - min + 1)) + min);
+
+//the random no is between 1 to 6
+const min1 = 1;
+const max1 = 6;
+
+console.log(Math.floor(Math.random() * (max1 - min1 + 1)) + min1);
