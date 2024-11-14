@@ -40,4 +40,5 @@ let date = new Date();
 let newdate = new Date("2024-12-31");
 
 console.log(newdate.toString());
-console.log(newdate.getTime()); //the give in milisecond
+console.log(newdate.getTime()); //the Ouput is give in milisecond
+console.log(newdate.getTime() / 1000); //the Ouput is give in second
