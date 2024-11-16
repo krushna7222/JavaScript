@@ -22,6 +22,9 @@ console.log(str.replace("Krushna", "Hemraj")); //replace the character in the st
 let splitedstring = str.split(""); //saparete each character of the string and return the array of character
 console.log(splitedstring);
 
+let repearstring = str.repeat(5);
+console.log(repearstring); // By repeat function string repeat by given number
+
 let reversedstring = splitedstring.reverse(); // reverse the string and return the array of character but first split operation required
 console.log(reversedstring);
 
