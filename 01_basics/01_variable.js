@@ -40,7 +40,7 @@ function checkscope() {
   console.log("Outside The Function : W = " + w);
 }
 checkscope();
-console.log("----------------------------------------------------------------");
+console.log("--------------------------------------------------------------");
 
 console.log("Outside The Function : U = " + u);
 console.log("Outside The Function : V = " + v);
