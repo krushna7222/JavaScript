@@ -9,3 +9,7 @@ console.log(typeof str);
 
 let strintonum = Number(str);
 console.log(typeof strintonum);
+
+var a = 2;
+var b = 3;
+console.log(++a + b++);
