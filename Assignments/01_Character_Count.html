@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Character Count</title>
+    <style>
+      body {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .outer {
+        border: 1px solid black;
+        padding: 20px 40px 35px 40px;
+        background-color: darkgrey;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="outer">
+      <h2>Live Word Count</h2>
+      <textarea
+        id="area"
+        id=""
+        cols="30"
+        rows="5"
+        onkeydown="countofword()"
+        placeholder="Type message"
+      ></textarea>
+      <div id="counts">Total Count is : 0</div>
+    </div>
+
+    <script>
+      function countofword() {
+        var text = document.getElementById("area").value;
+        let words = text.trim();
+        let count = words.length;
+        document.getElementById("counts").innerHTML =
+          "Total Count is : " + count;
+      }
+    </script>
+  </body>
+</html>
