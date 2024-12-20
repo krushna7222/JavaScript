@@ -13,3 +13,10 @@ console.log(typeof strintonum);
 var a = 2;
 var b = 3;
 console.log(++a + b++);
+
+var z = 10;
+var y = 20;
+
+console.log(z);
+console.log(++z);
+console.log(++z + y++);
