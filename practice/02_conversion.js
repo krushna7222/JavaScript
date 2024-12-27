@@ -16,3 +16,7 @@ console.log(++a + b++);
 
 var z = 10;
 var y = 20;
+
+console.log(z);
+console.log(++z);
+console.log(++z + y++);
