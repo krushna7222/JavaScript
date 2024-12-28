@@ -26,7 +26,7 @@
 let arr = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100];
 
 for (let i in arr) {
-  arr[i] = arr[i] + 10;
+  arr[i] += 10;
   console.log(arr[i]);
 }
 
