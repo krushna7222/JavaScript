@@ -43,6 +43,9 @@ console.log(str.includes("K", 11));
 
 console.log(str.normalize());
 
+let userInputName = "krushna shahane";
+console.log(userInputName.toLocaleLowerCase());
+
 // Check The String is Palindrome or not
 
 let userInput = prompt("Enter the string to check its palindrome or not :");
