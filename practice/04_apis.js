@@ -26,7 +26,7 @@ async function getData() {
 
     const json = await response.json();
     console.log(
-      "ID Nation     Nation       ID Year      Population       Year"
+      "ID Nation      Nation       ID Year      Population      Year"
     );
 
     data = json.data;
@@ -38,7 +38,7 @@ async function getData() {
         json.data[i]["ID Nation"] +
           "     " +
           json.data[i].Nation +
-          "   " +
+          "    " +
           json.data[i]["ID Year"] +
           "        " +
           json.data[i].Population +
