@@ -7,22 +7,22 @@ async function getData() {
       throw new Error(`Response status: ${response.status}`);
     }
 
-    const json = await response.json();
-    console.log("Nation         Population       Year");
+    // const json = await response.json();
+    // console.log("Nation         Population       Year");
 
-    data = json.data;
-    console.log(data);
+    // data = json.data;
+    // console.log(data);
 
-    for (let i in data) {
-      data = json.data[i];
-      console.log(
-        json.data[i].Nation +
-          "   " +
-          json.data[i].Population +
-          "        " +
-          json.data[i].Year
-      );
-    }
+    // for (let i in data) {
+    // data = json.data[i];
+    //   console.log(
+    //     json.data[i].Nation +
+    //       "   " +
+    //       json.data[i].Population +
+    //       "        " +
+    //       json.data[i].Year
+    //   );
+    // }
 
     const json = await response.json();
     console.log(
