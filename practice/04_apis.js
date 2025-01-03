@@ -24,10 +24,10 @@ async function getData() {
     //   );
     // }
 
-    // const json = await response.json();
-    // console.log(
-    //   "ID Nation      Nation       ID Year      Population      Year"
-    // );
+    const json = await response.json();
+    console.log(
+      "ID Nation      Nation       ID Year      Population      Year"
+    );
 
     data = json.data;
     // console.log(data);
