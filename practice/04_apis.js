@@ -47,13 +47,13 @@ async function getData() {
       );
     }
 
-    console.log(
-      json.data[0].Nation +
-        "   " +
-        json.data[0].Population +
-        "        " +
-        json.data[0].Year
-    ); // printing the data of  some of the variables from first row
+    // console.log(
+    //   json.data[0].Nation +
+    //     "   " +
+    //     json.data[0].Population +
+    //     "        " +
+    //     json.data[0].Year
+    // ); // printing the data of  some of the variables from first row
   } catch (error) {
     console.error(error.message);
   }
