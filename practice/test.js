@@ -1,14 +1,14 @@
-function userData() {
-  let name = document.getElementsByName("name").values;
+// function userData() {
+//   let name = document.getElementsByName("name").values;
 
-  let email = document.getElementsByName("email").values;
+//   let email = document.getElementsByName("email").values;
 
-  let password = document.getElementsByName("password").values;
+//   let password = document.getElementsByName("password").values;
 
-  let userInfo = {
-    name: name,
-    email: email,
-    password: password,
-  };
-}
-console.log(userInfo);
+//   let userInfo = {
+//     name: name,
+//     email: email,
+//     password: password,
+//   };
+// }
+// console.log(userInfo);
