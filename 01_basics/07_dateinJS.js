@@ -42,3 +42,16 @@ let newdate = new Date("2024-12-31");
 console.log(newdate.toString());
 console.log(newdate.getTime()); //the Ouput is give in milisecond
 console.log(newdate.getTime() / 1000); //the Ouput is give in second
+console.log(date.getMilliseconds());
+console.log(
+  date.toLocaleString("default", {
+    weekday: "long",
+    month: "long",
+    day: "numeric",
+    year: "numeric",
+    hour: "numeric",
+    minute: "numeric",
+    second: "numeric", // 24-hour time
+    // timeZone: "America/New_York", // Timezone name
+  })
+);
