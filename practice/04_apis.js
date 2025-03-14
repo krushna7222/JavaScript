@@ -34,17 +34,18 @@ async function getData() {
 
     for (let i in data) {
       //   data = json.data[i];
-      console.log(
-        json.data[i]["ID Nation"] +
-          "     " +
-          json.data[i].Nation +
-          "    " +
-          json.data[i]["ID Year"] +
-          "        " +
-          json.data[i].Population +
-          "       " +
-          json.data[i].Year
-      );
+      console
+        .log
+        // json.data[i]["ID Nation"] +
+        //   "     " +
+        //   json.data[i].Nation +
+        //   "    " +
+        //   json.data[i]["ID Year"] +
+        //   "        " +
+        //   json.data[i].Population +
+        //   "       " +
+        //   json.data[i].Year
+        ();
     }
 
     // console.log(
