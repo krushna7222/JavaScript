@@ -52,8 +52,8 @@ let userInput = prompt("Enter the string to check its palindrome or not :");
 let reverceString = userInput.split("").reverse();
 let resultString = reverceString.join("");
 
-if (userInput === resultString) {
-  alert("This String is a palindrome");
-} else {
-  alert("This String is not a palindrome");
-}
+// if (userInput === resultString) {
+//   alert("This String is a palindrome");
+// } else {
+//   alert("This String is not a palindrome");
+// }
